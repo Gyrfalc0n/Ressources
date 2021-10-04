@@ -1,0 +1,31 @@
+{
+	"blacklist": [],
+	"categorydata": [
+		"882610532178337853_hidden"
+	],
+	"channels": {
+		"GUILD_TEXT": true,
+		"GUILD_VOICE": true,
+		"GUILD_ANNOUNCEMENT": true,
+		"GUILD_STORE": true,
+		"GUILD_STAGE_VOICE": true
+	},
+	"general": {
+		"alwaysCollapse": false,
+		"showVoiceUsers": true,
+		"showForNormal": true
+	},
+	"settings": {
+		"alwaysCollapse": false,
+		"showAnnouncement": true,
+		"showForNormal": true,
+		"showStore": true,
+		"showText": true,
+		"showVoice": true,
+		"showVoiceUsers": true,
+		"sortNative": true
+	},
+	"sortOrder": {
+		"hidden": "extra"
+	}
+}

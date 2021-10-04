@@ -1,0 +1,46 @@
+{
+	"amounts": {
+		"tooltipDelay": 0,
+		"tooltipWidth": 300
+	},
+	"choices": {
+		"timeLang": "fr"
+	},
+	"colors": {
+		"tooltipColor": ""
+	},
+	"dates": {
+		"tooltipDates": {}
+	},
+	"formats": {
+		"ownFormat": "$hour:$minute:$second, $day.$month.$year"
+	},
+	"general": {
+		"onlyShowOnShift": false
+	},
+	"items": {
+		"icon": true,
+		"owner": true,
+		"creationDate": true,
+		"joinDate": true,
+		"members": true,
+		"channels": true,
+		"roles": true,
+		"boosts": true,
+		"region": true
+	},
+	"settings": {
+		"addBoosters": true,
+		"addChannels": true,
+		"addCreation": true,
+		"addIcon": true,
+		"addJoin": true,
+		"addMembers": true,
+		"addOwner": true,
+		"addRegion": true,
+		"addRoles": true,
+		"cutSeconds": false,
+		"forceZeros": false,
+		"otherOrder": false
+	}
+}

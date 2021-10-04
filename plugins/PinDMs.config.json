@@ -1,0 +1,80 @@
+{
+	"dmCategories": {
+		"9984702331245182": {
+			"collapsed": false,
+			"color": [
+				46,
+				204,
+				113,
+				1
+			],
+			"dms": [
+				"813561301405138944",
+				"798858076353462332",
+				"798646386173411429",
+				"798290790060261417",
+				"769323219152666645",
+				"793609729388970004"
+			],
+			"id": "9984702331245182",
+			"name": "LSPD Team",
+			"pos": 0
+		}
+	},
+	"general": {
+		"pinIcon": true,
+		"unreadAmount": true,
+		"channelAmount": true
+	},
+	"pinned": {
+		"260231577429213184": {
+			"channelList": {
+				"9984702331245182": {
+					"collapsed": true,
+					"color": [
+						46,
+						204,
+						113,
+						1
+					],
+					"dms": [
+						"813561301405138944",
+						"798858076353462332",
+						"798646386173411429",
+						"798290790060261417",
+						"769323219152666645",
+						"793609729388970004"
+					],
+					"id": "9984702331245182",
+					"name": "LSPD Team",
+					"pos": 0
+				}
+			}
+		}
+	},
+	"preCategories": {
+		"friends": {
+			"enabled": false,
+			"collapsed": false
+		},
+		"blocked": {
+			"enabled": false,
+			"collapsed": false
+		},
+		"groups": {
+			"enabled": false,
+			"collapsed": false
+		}
+	},
+	"recentOrder": {
+		"channelList": false,
+		"guildList": false
+	},
+	"settings": {
+		"showCategoryAmount": true,
+		"showCategoryUnread": true,
+		"showPinIcon": true,
+		"sortInRecentOrder": false,
+		"sortInRecentOrderGuild": false
+	}
+}

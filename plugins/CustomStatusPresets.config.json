@@ -1,0 +1,27 @@
+{
+	"presets": {
+		"172699750139104": {
+			"pos": 2,
+			"clearAfter": "TODAY",
+			"emojiInfo": {
+				"id": null,
+				"name": "🇫🇷",
+				"animated": false
+			},
+			"status": "online",
+			"text": "."
+		},
+		"3169067207600846": {
+			"pos": 1,
+			"clearAfter": "TODAY",
+			"status": "online",
+			"text": "LS Confidential"
+		},
+		"9669920631603630": {
+			"pos": 0,
+			"clearAfter": "TODAY",
+			"status": "online",
+			"text": "En partage d'écran"
+		}
+	}
+}
