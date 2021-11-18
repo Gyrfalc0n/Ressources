@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo UPDATE...
+apt update
+echo UPGRADE...
+apt upgrade --fix-missing -y
+echo AUTOREMOVE...
+apt autoremove -y
+echo DONE!
