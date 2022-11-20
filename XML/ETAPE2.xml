@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Cinema SYSTEM "ETAPE3.dtd">
 <?xml-stylesheet type="text/css" href="TPXML.css" ?>
-<xs:schema targetNamespace="http://www.w3schools.com/"
-    elementFormDefault="qualified"
-    xmlns="http://www.w3schools.com/ TPXML.xsd"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<Cinema>
+<Cinema xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml TPXML.xsd">
 	<Films>
 		<Film>
 				<Titre>TENET</Titre>
