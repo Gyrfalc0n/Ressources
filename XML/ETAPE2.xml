@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Cinema SYSTEM "ETAPE3.dtd">
-<?xml-stylesheet href="TPXML.css" type="text/css"?>
+<?xml-stylesheet type="text/css" href="TPXML.css" ?>
 <Cinema>
 	<Films>
 		<Film>

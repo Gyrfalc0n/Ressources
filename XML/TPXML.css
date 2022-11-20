@@ -1,13 +1,17 @@
-<style type="text/css">
-Films, Film{}​​
-Titre{​​
-font-size: 14pt;
-}​​
-Annee, Realisateur{​​
-color:red;
-}​​
-Acteur{​​
-color:blue;
-font-style: italic;
+Titre {
+    font-size: 14pt;
+    font-weight: bold;
 }
-</style>
+
+Annee, Realisateur {
+    color:red;
+}
+
+Acteur {
+    color:blue;
+    font-style: italic;
+}
+
+Titre, Annee, Realisateur, Acteur {
+    display: block;
+}
