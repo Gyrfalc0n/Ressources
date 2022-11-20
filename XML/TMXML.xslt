@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
+	xmlns="https://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<Cinema>
+			<xsl:variable name="xmlns" select="'https://www.w3schools.com'"/>
+			<xsl:attribute name="xmlns">
+				<xsl:value-of select="$xmlns"/>
+			</xsl:attribute>
 			<Films>
 				<xsl:for-each select="/Cinema/Films/Film">
 					<Film>
@@ -26,6 +32,12 @@
 							<xsl:for-each select="./Acteurs/Acteur">
 								<Acteur>
 									<xsl:value-of   select="."/>
+									<xsl:attribute name="xlink:href">
+										<xsl:value-of select="./@xlink:href"/>
+									</xsl:attribute>
+									<xsl:attribute name="xlink:type">
+										<xsl:value-of select="./@xlink:type"/>
+									</xsl:attribute>
 								</Acteur>
 							</xsl:for-each>
 						</Acteurs>
