@@ -1,0 +1,23 @@
+
+<!ELEMENT Jour  ( NomDuJour , Horaires+ )>
+<!ELEMENT Titre  (#PCDATA)>
+<!ELEMENT Acteur  (#PCDATA)>
+<!ELEMENT Langue  (#PCDATA)>
+<!ELEMENT Film  ( Titre , Annee , Nationalite , Genres , Acteurs , Duree , Realisateur , Synopsis , Langues , Notes* , Seances )>
+<!ELEMENT Annee  (#PCDATA)>
+<!ELEMENT Realisateur  (#PCDATA)>
+<!ELEMENT Langues  ( Langue+ )>
+<!ELEMENT Synopsis  (#PCDATA)>
+<!ELEMENT Acteurs  ( Acteur+ )>
+<!ELEMENT Duree  (#PCDATA)>
+<!ELEMENT Horaires  ( Horaire+ )>
+<!ELEMENT Horaire  (#PCDATA)>
+<!ELEMENT Nationalite  (#PCDATA)>
+<!ELEMENT Genres  ( Genre+ )>
+<!ELEMENT Genre  (#PCDATA)>
+<!ELEMENT Presse  (#PCDATA)>
+<!ELEMENT Spectateurs  (#PCDATA)>
+<!ELEMENT Seances  ( Jour+ )>
+<!ELEMENT Cinema  ( Film )>
+<!ELEMENT Notes  ( Presse , Spectateurs )>
+<!ELEMENT NomDuJour  (#PCDATA)>

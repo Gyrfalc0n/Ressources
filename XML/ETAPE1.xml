@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cinema SYSTEM "ETAPE3.dtd">
+<Cinema>
+    <Film>
+        <Titre>TENET</Titre>
+        <Annee>2020</Annee>
+        <Nationalite>américain</Nationalite>
+        <Genres>
+            <Genre>Action</Genre>
+            <Genre>Espionnage</Genre>
+            <Genre>Thriller</Genre>
+        </Genres>
+        <Acteurs>
+            <Acteur>John David Washington</Acteur>
+            <Acteur>Robert Pattinson</Acteur>
+            <Acteur>Elizabeth Debicki</Acteur>
+        </Acteurs>
+        <Duree>150</Duree>
+        <Realisateur>Christopher Nolan</Realisateur>
+        <Synopsis>Muni d'un seul mot – Tenet – et décidé à se battre pour sauver le monde, notre protagoniste sillonne l'univers crépusculaire de l'espionnage international. Sa mission le projettera dans une dimension qui dépasse le temps. Pourtant, il ne s'agit pas d'un voyage dans le temps, mais d'un renversement temporel…</Synopsis>
+        <Langues>
+            <Langue>VO (en anglais)</Langue>
+        </Langues>
+        <Notes>
+            <Presse>3.6/5</Presse>
+            <Spectateurs>4.1/5</Spectateurs>
+        </Notes>
+        <Seances>
+            <Jour>
+                <NomDuJour>Mercredi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>16:40</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Samedi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>16:40</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Jeudi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Vendredi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Lundi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Mardi</NomDuJour>
+                <Horaires>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+            <Jour>
+                <NomDuJour>Dimanche</NomDuJour>
+                <Horaires>
+                    <Horaire>10:20</Horaire>
+                    <Horaire>14:00</Horaire>
+                    <Horaire>16:40</Horaire>
+                    <Horaire>19:40</Horaire>
+                    <Horaire>22:10</Horaire>
+                </Horaires>
+            </Jour>
+        </Seances>
+    </Film>
+</Cinema>
+
