@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Cinema SYSTEM "ETAPE3.dtd">
 <?xml-stylesheet type="text/css" href="TPXML.css" ?>
+<xs:schema targetNamespace="http://www.w3schools.com/"
+    elementFormDefault="qualified"
+    xmlns="http://www.w3schools.com/ TPXML.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
 <Cinema>
 	<Films>
 		<Film>
@@ -12,10 +16,10 @@
 						<Genre>Espionnage</Genre>
 						<Genre>Thriller</Genre>
 				</Genres>
-				<Acteurs>
-						<Acteur>John David Washington</Acteur>
-						<Acteur>Robert Pattinson</Acteur>
-						<Acteur>Elizabeth Debicki</Acteur>
+				<Acteurs xmlns:xlink="http://www.w3.org/1999/xlink">
+						<Acteur xlink:type="simple" xlink:href="http://localhost/JDW">John David Washington</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/RP">Robert Pattinson</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/ED">Elizabeth Debicki</Acteur>
 				</Acteurs>
 				<Duree>150</Duree>
 				<Realisateur>Christopher Nolan</Realisateur>
@@ -99,10 +103,10 @@
 						<Genre>Aventure</Genre>
 						<Genre>Thriller</Genre>
 				</Genres>
-				<Acteurs>
-						<Acteur>Daniel Craig</Acteur>
-						<Acteur>Eva Green</Acteur>
-						<Acteur>Mads Mikkelsen</Acteur>
+				<Acteurs xmlns:xlink="http://www.w3.org/1999/xlink">
+						<Acteur xlink:type="simple" xlink:href="http://localhost/DC">Daniel Craig</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/EG">Eva Green</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/MM">Mads Mikkelsen</Acteur>
 				</Acteurs>
 				<Duree>144</Duree>
 				<Realisateur>Martin Campbell</Realisateur>
@@ -173,7 +177,7 @@
 								<NomDuJour>Dimanche</NomDuJour>
 								<Horaires>
 										<Horaire>10:50</Horaire>
-						<Horaire>14:30</Horaire>
+										<Horaire>14:30</Horaire>
 										<Horaire>17:10</Horaire>
 										<Horaire>20:10</Horaire>
 										<Horaire>22:40</Horaire>
@@ -192,10 +196,10 @@
 						<Genre>Guerre</Genre>
 						<Genre>Histoire</Genre>
 				</Genres>
-				<Acteurs>
-						<Acteur>Felix Kammerer</Acteur>
-						<Acteur>Albrecht Schuch</Acteur>
-						<Acteur>Aaron Hilmer</Acteur>
+				<Acteurs xmlns:xlink="http://www.w3.org/1999/xlink">
+						<Acteur xlink:type="simple" xlink:href="http://localhost/FK">Felix Kammerer</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/AB">Albrecht Schuch</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/AH">Aaron Hilmer</Acteur>
 				</Acteurs>
 				<Duree>148</Duree>
 				<Realisateur>Edward Berger</Realisateur>
@@ -246,7 +250,7 @@
 						<Jour>
 								<NomDuJour>Vendredi</NomDuJour>
 								<Horaires>
-						<Horaire>14:30</Horaire>
+										<Horaire>14:30</Horaire>
 										<Horaire>17:10</Horaire>
 										<Horaire>20:10</Horaire>
 										<Horaire>22:40</Horaire>
@@ -266,7 +270,7 @@
 								<NomDuJour>Dimanche</NomDuJour>
 								<Horaires>
 										<Horaire>10:50</Horaire>
-						<Horaire>14:30</Horaire>
+										<Horaire>14:30</Horaire>
 										<Horaire>17:10</Horaire>
 										<Horaire>20:10</Horaire>
 										<Horaire>22:40</Horaire>
@@ -285,10 +289,10 @@
 						<Genre>Guerre</Genre>
 						<Genre>Histoire</Genre>
 				</Genres>
-				<Acteurs>
-						<Acteur>Russel Crowe</Acteur>
-						<Acteur>Joaquim Phoenix</Acteur>
-						<Acteur>Connie Nielsen</Acteur>
+				<Acteurs xmlns:xlink="http://www.w3.org/1999/xlink">
+						<Acteur xlink:type="simple" xlink:href="http://localhost/RC">Russel Crowe</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/JP">Joaquim Phoenix</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/CN">Connie Nielsen</Acteur>
 				</Acteurs>
 				<Duree>170</Duree>
 				<Realisateur>Ridley Scott</Realisateur>
@@ -323,7 +327,7 @@
 						<Jour>
 								<NomDuJour>Mercredi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -333,7 +337,7 @@
 						<Jour>
 								<NomDuJour>Jeudi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -343,7 +347,7 @@
 						<Jour>
 								<NomDuJour>Vendredi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -354,7 +358,7 @@
 								<NomDuJour>Samedi</NomDuJour>
 								<Horaires>
 										<Horaire>10:00</Horaire>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -365,7 +369,7 @@
 								<NomDuJour>Dimanche</NomDuJour>
 								<Horaires>
 										<Horaire>10:00</Horaire>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -384,10 +388,10 @@
 						<Genre>Guerre</Genre>
 						<Genre>Biography</Genre>
 				</Genres>
-				<Acteurs>
-						<Acteur>Bradley Cooper</Acteur>
-						<Acteur>Sienna Miller</Acteur>
-						<Acteur>Kyle Gallner</Acteur>
+				<Acteurs xmlns:xlink="http://www.w3.org/1999/xlink">
+						<Acteur xlink:type="simple" xlink:href="http://localhost/BC">Bradley Cooper</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/SM">Sienna Miller</Acteur>
+						<Acteur xlink:type="simple" xlink:href="http://localhost/KG">Kyle Gallner</Acteur>
 				</Acteurs>
 				<Duree>152</Duree>
 				<Realisateur>Clint Eastwood</Realisateur>
@@ -422,7 +426,7 @@
 						<Jour>
 								<NomDuJour>Mercredi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -432,7 +436,7 @@
 						<Jour>
 								<NomDuJour>Jeudi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -442,7 +446,7 @@
 						<Jour>
 								<NomDuJour>Vendredi</NomDuJour>
 								<Horaires>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
@@ -453,26 +457,23 @@
 								<NomDuJour>Samedi</NomDuJour>
 								<Horaires>
 										<Horaire>10:00</Horaire>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
-
 								</Horaires>
 						</Jour>
 						<Jour>
 								<NomDuJour>Dimanche</NomDuJour>
 								<Horaires>
 										<Horaire>10:00</Horaire>
-						<Horaire>13:00</Horaire>
+										<Horaire>13:00</Horaire>
 										<Horaire>16:00</Horaire>
 										<Horaire>19:10</Horaire>
 										<Horaire>22:00</Horaire>
-
 								</Horaires>
 						</Jour>
 				</Seances>
 		</Film>
 	</Films>
-
 </Cinema>
